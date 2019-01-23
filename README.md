@@ -27,10 +27,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-Couldn't get LiceCap to stop crashing. Screen Captuered using Loom instead.
+Couldn't get LiceCap to stop crashing. Screen Captured using Loom instead.
 https://www.useloom.com/share/c7497999274f4a6ebb1ff4c212484f3d
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
