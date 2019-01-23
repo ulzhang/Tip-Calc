@@ -9,10 +9,38 @@
 import UIKit
 
 class SettingsTableViewController: UITableViewController {
+    
+    
+//    var nightMode:Bool = false;
+    
+    @IBOutlet weak var nightSwitch: UISwitch!
+    
+    @IBAction func nightSwitchChange(_ sender: UISwitch) {
+        if nightSwitch.isOn {
+            UserDefaults.standard.set(true, forKey: "nightMode")
+            print("ON on Settings")
+//            nightMode = true
+        }
+        else {
+            UserDefaults.standard.set(false, forKey: "nightMode")
+            print("OFF on Settings")
+//            nightMode = false
+        }
+    }
+    
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if (segue.identifier == "SegueID") {
+//            let vc = segue.destination as! ViewController
+//            vc.nightMode = nightMode
+//        }
+//    }
+    override func viewDidAppear(_ animated: Bool) {
+        let userDefaults = UserDefaults.standard.bool(forKey: "nightMode")
+        self.nightSwitch.setOn(userDefaults, animated: false)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -24,12 +52,12 @@ class SettingsTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return 1
     }
 
     /*

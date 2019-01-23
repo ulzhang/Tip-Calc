@@ -14,6 +14,7 @@
 		343CFFBE21F273CF0069159A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 343CFFBC21F273CF0069159A /* LaunchScreen.storyboard */; };
 		343CFFC921F273CF0069159A /* tipperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343CFFC821F273CF0069159A /* tipperTests.swift */; };
 		343CFFD421F273CF0069159A /* tipperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343CFFD321F273CF0069159A /* tipperUITests.swift */; };
+		347FFE5021F83B0C000B66A0 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347FFE4F21F83B0C000B66A0 /* SettingsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		343CFFCF21F273CF0069159A /* tipperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		343CFFD321F273CF0069159A /* tipperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipperUITests.swift; sourceTree = "<group>"; };
 		343CFFD521F273CF0069159A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		347FFE4F21F83B0C000B66A0 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				343CFFB321F273C90069159A /* AppDelegate.swift */,
 				343CFFB521F273C90069159A /* ViewController.swift */,
+				347FFE4F21F83B0C000B66A0 /* SettingsTableViewController.swift */,
 				343CFFB721F273C90069159A /* Main.storyboard */,
 				343CFFBA21F273CF0069159A /* Assets.xcassets */,
 				343CFFBC21F273CF0069159A /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				347FFE5021F83B0C000B66A0 /* SettingsTableViewController.swift in Sources */,
 				343CFFB621F273C90069159A /* ViewController.swift in Sources */,
 				343CFFB421F273C90069159A /* AppDelegate.swift in Sources */,
 			);
